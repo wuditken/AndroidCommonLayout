@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0, 1, 2, 3"
+    tools:context=".activity.TableLayoutActivity">
+
+    <TableRow>
+
+        <TextView android:text="姓名" />
+
+        <TextView android:text="性别" />
+
+        <TextView android:text="年龄" />
+
+        <TextView android:text="住址" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="张三" />
+
+        <TextView android:text="男" />
+
+        <TextView android:text="23" />
+
+        <TextView android:text="北京" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="李四" />
+
+        <TextView android:text="男" />
+
+        <TextView android:text="25" />
+
+        <TextView android:text="北京" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="王五" />
+
+        <TextView android:text="男" />
+
+        <TextView android:text="27" />
+
+        <TextView android:text="北京" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="赵六" />
+
+        <TextView android:text="男" />
+
+        <TextView android:text="21" />
+
+        <TextView android:text="北京" />
+    </TableRow>
+</TableLayout>

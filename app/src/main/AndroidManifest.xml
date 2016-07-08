@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zky.zhaoliang.androidcommonlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LinearLayoutOneActivity" />
+        <activity android:name=".activity.LinearLayoutTwoActivity" />
+        <activity android:name=".activity.RelativeLayoutOneActivity" />
+        <activity android:name=".activity.RelativeLayoutTwoActivity" />
+        <activity android:name=".activity.FrameLayoutActivity" />
+        <activity android:name=".activity.TableLayoutActivity" />
+        <activity android:name=".activity.AbsoluteLayoutActivity"></activity>
+    </application>
+
+</manifest>
